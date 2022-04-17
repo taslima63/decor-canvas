@@ -14,7 +14,7 @@ const Service = ({ service }) => {
             <div className='service-container'>
                 <img className='w-100' src={img} alt="" />
                 <h4>Service:{name}</h4>
-                <p><small>{description.length < 25 ? description : description.slice(0, 25)}</small></p>
+                <p><small>{description.length < 100 ? description : description.slice(0, 100)}</small></p>
                 <p>Cost:{price}</p>
                 <button onClick={() => navigateToServiceDetail(id)} className='bookBtn'>Book:{name}</button>
             </div>

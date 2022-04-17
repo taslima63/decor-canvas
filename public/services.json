@@ -11,7 +11,7 @@
         "name": "Small Bed Room Decor",
         "price": "3500",
         "description": "Making the best use of your small bed Room for creating a better experience of living",
-        "img": "images/bedroom/bed1.jpg"
+        "img": "images/bedroom/bed2.jpg"
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "name": "Dining Decor",
         "price": "4000",
         "description": "Most difficult job is to keep the kitchen Functional. This job gets more difficult when space is small. I take the challenge to make it functional and comfotable for you",
-        "img": "images/Dining/dining1.jpg"
+        "img": "images/Dining/dining3.jpg"
     },
     {
         "id": 5,
@@ -46,6 +46,6 @@
         "name": "Office Decor",
         "price": "5500",
         "description": "Office is the place where we try to be mostly active and creative.So The environment should be a place where it inspires you to work harder. I make sur that behalf of you.",
-        "img": "images/Office/office2.jpg"
+        "img": "images/Office/office1.jpg"
     }
 ]
