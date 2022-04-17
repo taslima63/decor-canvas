@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "review": "Not good",
+        "name": "jamal uddin",
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "/players/player-1.png"
+    },
+    {
+        "id": "2",
+        "review": "very good",
+        "name": "kamal uddin",
+        "ratings": 5,
+        "ratingsCount": 4355,
+        "img": "/players/player-2.png"
+    },
+    {
+        "id": "3",
+        "review": "Takata jole gelo",
+        "name": "Himel uddin",
+        "ratings": 4,
+        "ratingsCount": 3972,
+        "img": "/players/player-3.png"
+    },
+    {
+        "id": "4",
+        "review": "very good",
+        "name": "jashim uddin",
+        "ratings": 5,
+        "ratingsCount": 1764,
+        "img": "/players/player-4.png"
+    },
+    {
+        "id": "5",
+        "review": "Amake Thokaise",
+        "name": "Karim uddin",
+        "ratings": 4,
+        "ratingsCount": 799,
+        "img": "/players/player-5.png"
+    },
+    {
+        "id": "6",
+        "review": "Not Recommended",
+        "name": "Jalal uddin",
+        "ratings": 3,
+        "ratingsCount": 4372,
+        "img": "/players/player-6.png"
+    }
+]

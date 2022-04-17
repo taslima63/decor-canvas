@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../../../../firebase.init';
 import Loading from '../../../../Shared/Loading/Loading';
+import ThirdPartyLogin from '../ThirdPartyLogin/ThirdPartyLogin';
 
 const Register = () => {
     const [errMsg, setErrMsg] = useState("");
@@ -14,13 +15,14 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
-    const [updateProfile, nameUpdating, nameError] = useUpdateProfile(auth);
+    const [updateProfile, nameUpdating] = useUpdateProfile(auth);
 
     if (loading || nameUpdating) {
         return <Loading></Loading>
     }
+
 
 
     const navigateLogin = () => {
@@ -79,6 +81,11 @@ const Register = () => {
             </Form>
             <p className='text-danger my-3'> {error || errMsg}</p>
             <p>Already have an account? <Link to="/login" style={{ color: '#c5d912' }} className='pe-auto text-decoration-none' onClick={navigateLogin}>Login</Link> </p>
+
+
+            <div className=' mx-auto'>
+                <ThirdPartyLogin></ThirdPartyLogin>
+            </div>
 
         </div>
     );

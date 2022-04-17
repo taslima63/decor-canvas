@@ -6,6 +6,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import auth from '../../../../../firebase.init';
 import Loading from '../../../../Shared/Loading/Loading';
+import ThirdPartyLogin from '../ThirdPartyLogin/ThirdPartyLogin';
 
 
 const Login = () => {
@@ -64,32 +65,35 @@ const Login = () => {
     }
 
     return (
-        <div className='container w-50 mx-auto'>
-            <h2 style={{ textAlign: 'center', color: "#dcf715", margin: '20px 0px' }}>Please Login</h2>
-            <Form onSubmit={handleSubmit}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+        <div className='container'>
+            <div className='w-50 mx-auto'>
+                <h2 style={{ textAlign: 'center', color: "#dcf715", margin: '20px 0px' }}>Please Login</h2>
+                <Form onSubmit={handleSubmit}>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
 
-                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
+                        <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
 
-                </Form.Group>
+                    </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
 
-                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <button type="submit" className='bookBtn text-dark'>Login</button>
+                        <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                        <Form.Check type="checkbox" label="Check me out" />
+                    </Form.Group>
+                    <button type="submit" className='bookBtn text-dark'>Login</button>
 
-            </Form>
-            {errorElement}
+                </Form>
+                {errorElement}
 
-            <p>Forget Password?<button style={{ color: '#c5d912' }} className='btn btn-link pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+                <p>Forget Password?<button style={{ color: '#c5d912' }} className='btn btn-link pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
 
-            <p>New to Decor Canvas? <Link to="/register" style={{ color: '#c5d912' }} className='pe-auto text-decoration-none' onClick={navigateRegister}> Register Here</Link> </p>
-
+                <p>New to Decor Canvas? <Link to="/register" style={{ color: '#c5d912' }} className='pe-auto text-decoration-none' onClick={navigateRegister}> Register Here</Link> </p>
+            </div>
+            <ThirdPartyLogin></ThirdPartyLogin>
             <ToastContainer />
+
         </div>
     );
 };
