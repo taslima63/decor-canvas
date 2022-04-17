@@ -4,21 +4,21 @@
         "name": "Living Room Decor",
         "price": "3000",
         "description": "Creating a soothing and calm feeling so that you feel relaxed at your home with your family and friends",
-        "img": "images/Living/livingRoom1.jpg"
+        "img": "images/Living/living1.jpg"
     },
     {
         "id": 2,
         "name": "Small Bed Room Decor",
         "price": "3500",
         "description": "Making the best use of your small bed Room for creating a better experience of living",
-        "img": "images/bedroom/bed2.jpg"
+        "img": "images/bedroom/bed1.jpg"
     },
     {
         "id": 3,
         "name": "Kitchen Decor",
         "price": "4000",
         "description": "Most difficult job is to keep the kitchen Functional. This job gets more difficult when space is small. I take the challenge to make it functional and comfotable for you",
-        "img": "images/Kitchen/kitchen3.jpg"
+        "img": "images/Kitchen/kitchen1.jpg"
     },
     {
         "id": 4,

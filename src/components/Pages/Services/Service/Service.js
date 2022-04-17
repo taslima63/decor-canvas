@@ -16,8 +16,7 @@ const Service = ({ service }) => {
                 <h4>Service:{name}</h4>
                 <p><small>{description.length < 25 ? description : description.slice(0, 25)}</small></p>
                 <p>Cost:{price}</p>
-                <button onClick={() => navigateToServiceDetail(id)} className='btn btn-primary'>Book:{name}</button>
-
+                <button onClick={() => navigateToServiceDetail(id)} className='bookBtn'>Book:{name}</button>
             </div>
         </div>
     );
