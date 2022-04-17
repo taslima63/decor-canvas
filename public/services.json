@@ -4,41 +4,48 @@
         "name": "Living Room Decor",
         "price": "3000",
         "description": "Creating a soothing and calm feeling so that you feel relaxed at your home with your family and friends",
-        "img": "https://ibb.co/5L1QcWC"
+        "img": "images/Living/livingRoom1.jpg"
     },
     {
         "id": 2,
         "name": "Small Bed Room Decor",
         "price": "3500",
         "description": "Making the best use of your small bed Room for creating a better experience of living",
-        "img": "https://ibb.co/phN3W3F"
+        "img": "images/bedroom/bed2.jpg"
     },
     {
         "id": 3,
         "name": "Kitchen Decor",
         "price": "4000",
         "description": "Most difficult job is to keep the kitchen Functional. This job gets more difficult when space is small. I take the challenge to make it functional and comfotable for you",
-        "img": "https://ibb.co/2KSYtYc"
+        "img": "images/Kitchen/kitchen3.jpg"
     },
     {
         "id": 4,
-        "name": "Bathroom Decor",
-        "price": "2300",
-        "description": "Keeping in mind all the functionalities I try to make a good vibe in the environment so you can start fresh.",
-        "img": "https://ibb.co/tmnWDK4"
+        "name": "Dining Decor",
+        "price": "4000",
+        "description": "Most difficult job is to keep the kitchen Functional. This job gets more difficult when space is small. I take the challenge to make it functional and comfotable for you",
+        "img": "images/Dining/dining1.jpg"
     },
     {
         "id": 5,
-        "name": "Balcony Decor",
-        "price": "2700",
-        "description": "In this Covid era its difficult to spend time in the nature. So i try to make sure my client can relax and be creative and take positive energy from their own home.",
-        "img": "https://ibb.co/N14rZfM"
+        "name": "Bathroom Decor",
+        "price": "2300",
+        "description": "Keeping in mind all the functionalities I try to make a good vibe in the environment so you can start fresh.",
+        "img": "images/bath/bath2.jpg"
     },
     {
         "id": 6,
+        "name": "Balcony Decor",
+        "price": "2700",
+        "description": "In this Covid era its difficult to spend time in the nature. So i try to make sure my client can relax and be creative and take positive energy from their own home.",
+        "img": "images/Balcony/balcony2.jpg"
+    },
+    {
+        "id": 7,
         "name": "Office Decor",
         "price": "5500",
         "description": "Office is the place where we try to be mostly active and creative.So The environment should be a place where it inspires you to work harder. I make sur that behalf of you.",
-        "img": "https://ibb.co/j88CY3Y"
+        "img": "images/Office/office2.jpg"
     }
 ]
