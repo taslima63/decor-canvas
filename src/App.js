@@ -13,6 +13,7 @@ import Register from './components/Pages/Home/LoginAll/Register/Register';
 import RequiredAuth from './components/Pages/Home/LoginAll/RequiredAuth/RequiredAuth';
 import Checkout from './components/Pages/Checkout/Checkout';
 import ServiceDetail from './components/Pages/Services/ServiceDetail/ServiceDetail';
+import Reviews from './components/Pages/Reviews/Reviews/Reviews';
 
 
 
@@ -27,12 +28,14 @@ function App() {
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/checkout' element={
           <RequiredAuth>
             <Checkout></Checkout>
           </RequiredAuth>
         }>
         </Route>
+
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>

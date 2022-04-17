@@ -5,7 +5,7 @@
         "name": "jamal uddin",
         "ratings": 4,
         "ratingsCount": 3725,
-        "img": "/players/player-1.png"
+        "img": "customer/customer1.png"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "name": "kamal uddin",
         "ratings": 5,
         "ratingsCount": 4355,
-        "img": "/players/player-2.png"
+        "img": "customer/customer2.png"
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "name": "Himel uddin",
         "ratings": 4,
         "ratingsCount": 3972,
-        "img": "/players/player-3.png"
+        "img": "customer/customer3.png"
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "name": "jashim uddin",
         "ratings": 5,
         "ratingsCount": 1764,
-        "img": "/players/player-4.png"
+        "img": "customer/customer4.png"
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "name": "Karim uddin",
         "ratings": 4,
         "ratingsCount": 799,
-        "img": "/players/player-5.png"
+        "img": "customer/customer5.png"
     },
     {
         "id": "6",
@@ -45,6 +45,6 @@
         "name": "Jalal uddin",
         "ratings": 3,
         "ratingsCount": 4372,
-        "img": "/players/player-6.png"
+        "img": "customer/customer6.png"
     }
 ]

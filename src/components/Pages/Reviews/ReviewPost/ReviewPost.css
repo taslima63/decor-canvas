@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500;700&family=Roboto&display=swap');
+
+.reviewItem-container {
+    width: 250px;
+    height: 350px;
+    padding: 10px 0px 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: left;
+    color: #3A3845;
+    border-radius: 10px;
+
+}
+
+.customer-img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reviewItem-container img {
+    width: 100px;
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.name span {
+    font-weight: 500;
+}
+
+.comment {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3A3845;
+    font-size: 16px;
+
+
+
+}
+
+.highlight-rating {
+    font-weight: 500;
+    font-size: 16px;
+}
