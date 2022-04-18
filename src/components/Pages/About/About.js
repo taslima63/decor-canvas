@@ -14,7 +14,7 @@ const About = () => {
                     <div style={{ border: "1px solid #D6ED17", }} className='mb-4'></div>
                     <p style={{ color: '#606060', fontSize: '18px', fontFamily: "'Roboto', sans-serif", fontWeight: "500" }} className='punch-line'>A passionate Interior Designer from Tokyo,Japan who loves to play with Color and Nature and create realaxing and enthusiastic environment for my clients.  </p>
 
-                    <ul>
+                    <ul className='achievment'>
                         <li>Delivered inspired, efficient interior designs for commercial and residential markets. Exceeded specs for hundreds of satisfied clients.</li>
 
                         <li>Scored the re-compete contract for Radisson Hotels.</li>
