@@ -8,9 +8,9 @@ const ReviewPost = (props) => {
             <div className="customer-img">
                 <img src={img} alt="" />
             </div>
-            <h3 className='name'>Name: <span>{name}</span></h3>
-            <p><small>Ratings: <span className='highlight-rating'>{ratings}</span> Stars</small></p>
-            <p className='comment'>Comment:{review}</p>
+            <h3 className='name mt-3 text-center'>Name : <span>{name}</span></h3>
+            <p><small>Ratings : <span className='highlight-rating'>{ratings}</span> Stars</small></p>
+            <p className='comment'>Comment : {review}</p>
         </div>
     );
 };

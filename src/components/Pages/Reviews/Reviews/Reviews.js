@@ -12,13 +12,15 @@ const Reviews = () => {
     }, []);
     return (
         <div className='container mt-5'>
-            <h2>All Reviews from Our customers</h2>
-            <div className='reviews'>
-                {
-                    reviews.map(review => <ReviewPost key={review.id} review={review}></ReviewPost>)
-                }
-            </div>
+            <div className="reviews-container">
+                <h2 className='my-5' style={{ color: '#606060FF' }}>All Reviews from Our Clients</h2>
+                <div className='reviews'>
+                    {
+                        reviews.map(review => <ReviewPost key={review.id} review={review}></ReviewPost>)
+                    }
+                </div>
 
+            </div>
         </div>
     );
 };

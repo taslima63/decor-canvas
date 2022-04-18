@@ -1,50 +1,44 @@
 [
     {
         "id": "1",
-        "review": "Not good",
-        "name": "jamal uddin",
-        "ratings": 4,
-        "ratingsCount": 3725,
+        "review": "She is a professional who's priority is her client's satisfaction. It was a great time collaborating with her to make my dream come true bed room.",
+        "name": "Alex Smith",
+        "ratings": 5,
         "img": "customer/customer1.png"
     },
     {
         "id": "2",
-        "review": "very good",
-        "name": "kamal uddin",
+        "review": "Her Service was superb. I will definitely recommened her sevice to other also",
+        "name": "Terabaru kazuya",
         "ratings": 5,
-        "ratingsCount": 4355,
         "img": "customer/customer2.png"
     },
     {
         "id": "3",
-        "review": "Takata jole gelo",
-        "name": "Himel uddin",
-        "ratings": 4,
-        "ratingsCount": 3972,
+        "review": "I was amaged at her working way. definitely she knows what is she doing. ",
+        "name": "Maria Sharapova",
+        "ratings": 5,
         "img": "customer/customer3.png"
     },
     {
         "id": "4",
-        "review": "very good",
-        "name": "jashim uddin",
+        "review": "At first i was not sure if she can handle all the work. But she Cracked it.",
+        "name": "Bill Gates",
         "ratings": 5,
-        "ratingsCount": 1764,
         "img": "customer/customer4.png"
     },
     {
         "id": "5",
-        "review": "Amake Thokaise",
-        "name": "Karim uddin",
+        "review": "She is the best.",
+        "name": "Elon Musk",
         "ratings": 4,
-        "ratingsCount": 799,
         "img": "customer/customer5.png"
     },
     {
         "id": "6",
-        "review": "Not Recommended",
-        "name": "Jalal uddin",
-        "ratings": 3,
-        "ratingsCount": 4372,
+        "review": "I am a repeat client of her. How she decorate my balcony and bath area now making me think renovate my whole house by her. Thank Taslima.",
+        "name": "Sheikh Hasina",
+        "ratings": 5,
         "img": "customer/customer6.png"
     }
 ]
