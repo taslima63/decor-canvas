@@ -5,7 +5,6 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/Pages/Home/Home/Home';
 import NotFound from './components/Shared/NotFound/NotFound';
 import Services from './components/Pages/Services/Services/Services';
-import Blogs from './components/Pages/Blogs/Blogs';
 import About from './components/Pages/About/About';
 import Header from './components/Shared/Header/Header';
 import Login from './components/Pages/Home/LoginAll/Login/Login';
@@ -14,6 +13,7 @@ import RequiredAuth from './components/Pages/Home/LoginAll/RequiredAuth/Required
 import Checkout from './components/Pages/Checkout/Checkout';
 import ServiceDetail from './components/Pages/Services/ServiceDetail/ServiceDetail';
 import Reviews from './components/Pages/Reviews/Reviews/Reviews';
+import Blogs from './components/Pages/BlogsAll/Blogs/Blogs';
 
 
 

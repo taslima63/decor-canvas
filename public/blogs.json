@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "question": "Authentication vs Authorization",
+        "answer": "Despite the similar-sounding terms, authentication and authorization are separate steps in the login process.Authentication is the act of validating that users are whom they claim to be. This is the first step in any security process. Authorization in system security is the process of giving the user permission to access a specific resource or function. As a example as a user i can add products to carts from amazon app by logging in with my id ,password credentials ,otherwise I can't. This is authentication.To become a seller in amazon I need to have some certain permission. This is called authorization ",
+        "img": "images/blogs/blog1.png",
+        "author": "Taslima Akter",
+        "date": "2022/04/03"
+    },
+    {
+        "id": 2,
+        "question": "Why are you using firebase? What other options do you have to implement authentication?",
+        "answer": "Firebase is the default tool for many mobile teams as it assists throughout the entire app development lifecycle, including building, testing, releasing, monitoring, and engaging. Most of its functionality is free. That causes many companies to use it. However, any platform as comprehensive as Firebase is bound to lack advanced features. Here are some alternatives of Firebase Authentication:Auth0 - Excellent for enabling secure,single sign-on,MongoDB - Stores data in JSON-like documents.Okta – Customizable, drop-in authentication service that connects all of your apps.",
+        "img": "images/blogs/blog2.png",
+        "author": "Taslima Akter",
+        "date": "2022/04/18"
+    },
+    {
+        "id": 3,
+        "question": "What other services does firebase provide other than authentication?",
+        "answer": "We have used firebase for authentication. But this is not the only service firebase provides to us. theres's many more. Like Realtime Database, Cloud Storage, Hosting, Performance Monitoring,Google Analytics,Firebase A/B Testing etc. Cloud Storage allows users to store user-generated content like videos, photos, and more.Firebase's Realtime Database makes it possible to store and share your data on Firebase's NoSQL cloud database. Firebase Hosting is production-grade web content hosting that serves both static content such as HTML and CSS and dynamic content like Express.js microservices and APIs.",
+        "img": "images/blogs/blog3.png",
+        "author": "Taslima Akter",
+        "date": "2021/12/31"
+    }
+]
