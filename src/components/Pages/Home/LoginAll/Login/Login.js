@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import { Form } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { ToastContainer, toast } from 'react-toastify';
@@ -16,7 +16,7 @@ const Login = () => {
     const location = useLocation();
     let errorElement;
     let from = location.state?.from?.pathname || "/";
-
+    console.log(from);
     const [
         signInWithEmailAndPassword,
         user,
@@ -24,7 +24,7 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
-
+    // error message show
     if (error) {
         errorElement = <div>
             <p className='text-danger'>Error: {error?.message} </p>
@@ -32,7 +32,7 @@ const Login = () => {
     }
     const [sendPasswordResetEmail, sending, passError] = useSendPasswordResetEmail(auth);
 
-
+    //  return to the page from where login page invoked
     if (user) {
         navigate(from, { replace: true });
     }
@@ -41,7 +41,7 @@ const Login = () => {
     }
 
 
-
+    // password reset
     const resetPassword = async () => {
         const email = emailRef.current.value;
 
@@ -52,6 +52,7 @@ const Login = () => {
             toast('Please enter your email address');
         }
     }
+    // Login button handle event
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;

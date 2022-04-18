@@ -12,12 +12,18 @@ const Blog = ({ blog }) => {
                 <h4 className='title rainbowhead my-3 text-center'>Decor Canvas</h4>
                 <div className='text-start'>
                     <h3 className='question  text-center'>{question}</h3>
-                    <small className='pe-2'>Written By : <span style={{ color: '#9952e0' }}>{author}</span> <span style={{ color: '#52e0e0', fontSize: "20px", fontWeight: "500", margin: '0px 2px' }} >|</span>  {date}</small>
+                    <small className='pe-2'>Written By :
+                        <span
+                            style={{ color: '#9952e0' }}
+                        >{author}</span>
+                        <span
+                            style={{ color: '#52e0e0', fontSize: "20px", fontWeight: "500", margin: '0px 2px' }}
+                        >|</span>
+                        {date}
+                    </small>
 
                     <p className='answer'>{answer}</p>
                 </div>
-
-                {/* {answer.length > 400 ? answer.slice(0, 400) : answer} */}
             </div>
         </div>
     );

@@ -10,6 +10,7 @@ const Register = () => {
     const [errMsg, setErrMsg] = useState("");
     const [agree, setAgree] = useState(false);
     const navigate = useNavigate();
+    // creating new user with email and password
     const [
         createUserWithEmailAndPassword,
         user,
@@ -22,8 +23,6 @@ const Register = () => {
     if (loading || nameUpdating) {
         return <Loading></Loading>
     }
-
-
 
     const navigateLogin = () => {
         navigate('/login');

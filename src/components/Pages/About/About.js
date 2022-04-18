@@ -29,14 +29,13 @@ const About = () => {
 
                     </ul>
                 </div>
-
-
             </div>
             <div className='mx-auto my-5'>
                 <h4 className='text-center' style={{
-                    color: "#D6ED10", fontFamily: "'Roboto', sans-serif", fontSize: '20px', fontWeight: "500"
+                    color: "#D6ED10", fontFamily: "'Roboto', sans-serif", fontSize: '24px', fontWeight: "500"
                 }}>Certifications</h4>
-                <div className='text-center mx-auto w-75'>
+                <div style={{ border: "1px solid #D6ED17", }} className='mb-4 w-50 mx-auto'></div>
+                <div className='justify-content-center mx-auto w-75 ps-5'>
                     <ul className='certificates text-left'>
                         <li>CIDQ Interior Design Certification</li>
 

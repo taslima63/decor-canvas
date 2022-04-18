@@ -23,8 +23,10 @@ const Banner = () => {
                     />
                 </div>
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <div className="carousal-caption mt-2">
+                        <h3 style={{ color: '#606060FF' }}>Here Starts Your Positivity</h3>
+                        <p className='text-dark ' style={{ fontWeight: '500', fontFamily: "'Roboto',sans-serif" }}>Underneath all I design lies the solid belief that beauty is a positive force.</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -37,8 +39,10 @@ const Banner = () => {
 
                 </div>
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div className="carousal-caption">
+                        <h3 style={{ color: '#606060FF' }}>A Room Is Not A Room Without Natural Light.</h3>
+                        <p className='text-dark ' style={{ fontWeight: '500', fontFamily: "'Roboto',sans-serif" }}>A house is much more than a mere shelter—it should lift us emotionally and spiritually.</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -52,10 +56,12 @@ const Banner = () => {
                 </div>
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <div className="carousal-caption">
+                        <h3 style={{ color: '#606060FF' }}>Never Seen Elegance Go Out of Style.</h3>
+                        <p className='text-dark' style={{ fontWeight: '500', fontFamily: "'Roboto',sans-serif" }}>
+                            For a house to be successful, the objects in it must communicate with one another, respond and balance one another.
+                        </p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -69,10 +75,12 @@ const Banner = () => {
                 </div>
 
                 <Carousel.Caption>
-                    <h3>Fourth Slide </h3>
-                    <p>
-
-                    </p>
+                    <div className="carousal-caption">
+                        <h3 style={{ color: '#606060FF' }}>Design Is Thinking Made Visual.</h3>
+                        <p className='text-dark' style={{ fontWeight: '500', fontFamily: "'Roboto',sans-serif" }}>
+                            There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.
+                        </p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

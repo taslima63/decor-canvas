@@ -12,7 +12,7 @@ const Services = () => {
     return (
         <div className='container mt-5' id='services'>
             <div className="row">
-                <h2 className='text-primary'> This is Our Services</h2>
+                <h2 style={{ fontFamily: "'Roboto', sans-serif", fontWeight: '600', color: '#606060FF' }} > This is Our Services</h2>
 
                 <div className='row'>
                     {
@@ -23,7 +23,7 @@ const Services = () => {
                     }
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
