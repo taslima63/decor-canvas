@@ -7,7 +7,7 @@ Decor Canvas
 
 ## Project Description ##
 
-This Project is A website of a Individual Interior Designer. Where user can - _register, login_ to book any services. User can see _services , blogs Reviews_ of Clients without Logging in to the site.
+This Project is A website of a Individual Interior Designer. Where user can _register, login_ to book any services. User can see _services , blogs Reviews_ of Clients without Logging in to the site.
 
 ## Used Technologies ##
 * React
