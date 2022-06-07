@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Form } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { ToastContainer, toast } from 'react-toastify';
@@ -33,6 +33,7 @@ const Login = () => {
     const [sendPasswordResetEmail, sending, passError] = useSendPasswordResetEmail(auth);
 
     //  return to the page from where login page invoked
+
     if (user) {
         navigate(from, { replace: true });
     }

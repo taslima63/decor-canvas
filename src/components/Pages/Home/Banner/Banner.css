@@ -1,6 +1,6 @@
 .carousal-caption {
     top: 70%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     padding-bottom: initial;
     color: black;
     bottom: 50%;
